@@ -26,7 +26,7 @@ The following **stretch** features are implemented:
 The following **additional** features are implemented:
 
 * [x] List anything else that you can get done to improve the app functionality!
-[x] Movie details activity supports both poster and landscape mode with different layouts
+* [x] Movie details activity supports both poster and landscape mode with different layouts
 
 ## Video Walkthrough
 
