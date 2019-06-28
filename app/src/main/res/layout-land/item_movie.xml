@@ -7,15 +7,11 @@
 
     <ImageView
         android:id="@+id/ivBackdropImage"
-        android:layout_width="480dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="260dp"
-        android:layout_marginLeft="260dp"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/tvOverview"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/flicks_backdrop_placeholder" />
 
@@ -36,13 +32,13 @@
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="239dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ivBackdropImage"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 </android.support.constraint.ConstraintLayout>
