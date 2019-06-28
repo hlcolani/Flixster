@@ -19,8 +19,8 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="193dp"
+        android:layout_height="54dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
@@ -34,13 +34,13 @@
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="209dp"
-        android:layout_height="108dp"
+        android:layout_width="265dp"
+        android:layout_height="196dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="14dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginRight="11dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:text="Movie overview and synopsis"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
